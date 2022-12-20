@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g"
+    tools:context=".Fifteen">
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="406dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/button30"
+        android:layout_marginBottom="148dp"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="246dp"
+        android:backgroundTint="@color/black"
+        android:text="Verify OTP and LOGIN"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="182dp"
+        android:backgroundTint="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</RelativeLayout>
